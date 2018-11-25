@@ -1,0 +1,84 @@
+.efecto{
+    overflow:hidden;
+    position:relative;
+    font-size:3em;
+    width:100%;
+    height:0;
+    -webkit-transition: all 1000ms ease-out;
+    -moz-transition:all 1000ms ease-out;
+    transition: all 1000ms ease-out;
+
+}
+
+#pgg{
+    overflow:hidden;
+    position:relative;
+    font-size:3em;
+    width:100%;
+    height:0;
+    -webkit-transition: all 1000ms ease-out;
+    -moz-transition:all 1000ms ease-out;
+    transition: all 1000ms ease-out;
+
+}
+.accordion {
+    background-color: #C1BCBA;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.8s;
+}
+
+.accordion:hover {
+    background-color:#958D8B; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:#C1BCBA ;
+    overflow: hidden;
+}
+
+.jumbotron{
+    height: 1200px;
+}
+
+@media (min-width: 768px) and (max-width: 2099px) { 
+
+    .jumbotron{
+        height: 800px;
+    }
+    
+    #servicios{
+        height: 960px;
+    }
+}
+ 
+
+@media (max-width: 767px) { ... }
+ 
+/ Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) { ... }
+
+
+
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+   
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
