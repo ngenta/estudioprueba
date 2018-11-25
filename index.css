@@ -46,26 +46,56 @@
 }
 
 .jumbotron{
-    height: 1200px;
+    height: 1300px;
+    margin-top: 10px;
+}
+
+#parr {
+    word-break: break-all;
+}
+
+#servicios{
+    
+    height: 1700px;
+}
+
+#acercade{
+    
+    height: 1630px;
+}
+
+#contacto{
+    
+    height: 1425px;
 }
 
 @media (min-width: 768px) and (max-width: 2099px) { 
 
     .jumbotron{
         height: 800px;
+    
     }
     
+   
+    
     #servicios{
-        height: 960px;
+        height: 975px;
     }
+    
+   
+
+#acercade{
+    
+    height: 830px;
+}
+
+#contacto{
+    
+    height: 825px;
+}
 }
  
 
-@media (max-width: 767px) { ... }
- 
-/ Móviles en vertical
-   ------------------------------------------------------------------------- */
-@media (max-width: 480px) { ... }
 
 
 
