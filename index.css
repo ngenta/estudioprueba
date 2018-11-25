@@ -82,11 +82,14 @@
         height: 975px;
     }
     
-   
+   #inicio{
+    
+    height: 880px;
+}
 
 #acercade{
     
-    height: 830px;
+    height: 880px;
 }
 
 #contacto{
