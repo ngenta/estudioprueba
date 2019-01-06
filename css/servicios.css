@@ -46,65 +46,26 @@
 }
 
 .jumbotron{
-    height: 1300px;
-    margin-top: 10px;
-}
-
-#parr {
-    word-break: break-all;
-}
-
-#servicios{
-    
-    height: 1700px;
-}
-
-#inicio{
-    
-    height: 1380px;
-     margin-top: 10px;
-}
-
-#acercade{
-    
-    height: 1660px;
-}
-
-#contacto{
-    
-    height: 1425px;
+    height: 1400px;
 }
 
 @media (min-width: 768px) and (max-width: 2099px) { 
 
     .jumbotron{
         height: 800px;
-    
     }
-    
-   
     
     #servicios{
-        height: 975px;
+        height: 960px;
     }
-    
-   #inicio{
-    
-    height: 880px;
-}
-
-#acercade{
-    
-    height: 880px;
-}
-
-#contacto{
-    
-    height: 825px;
-}
 }
  
 
+@media (max-width: 767px) { ... }
+ 
+/ Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) { ... }
 
 
 
@@ -118,6 +79,3 @@
    
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
